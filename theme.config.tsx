@@ -5,11 +5,11 @@ const config = {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s –  Documentation Develop'
+        titleTemplate: '%s –  Development Documentation'
       }
     }
   },
-  logo: <span>Documentation Develop</span>,
+  logo: <span>Development Documentation</span>,
 }
 
 export default config
